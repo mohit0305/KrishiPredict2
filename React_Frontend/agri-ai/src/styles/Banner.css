@@ -1,0 +1,97 @@
+.banner {
+  height: 70vh;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.banner__title_head {
+  text-align: center;
+  font-weight: 600;
+  font-size: 80px;
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid whitesmoke;
+}
+
+.banner__title_head font {
+  color: tomato;
+}
+
+.banner__title_tail {
+  text-align: center;
+  margin-top: 10px;
+  color: azure;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.banner__buttons {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.banner__button {
+  color: white !important;
+  background-color: rgba(29, 6, 145, 0.8) !important;
+  padding: 2px !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px !important;
+  margin-left: 20px !important ;
+}
+.banner__button :hover{
+  background-color: aliceblue;
+  color: black;
+  padding: 2px !important;
+}
+.banner__socialMedia {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.social_icon_linkedin {
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 5px;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: #0077b5;
+  padding: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.social_icon_github {
+  font-size: 25px;
+  margin-top: 5px;
+  margin-left: 10px;
+  background-color: rgb(0, 0, 0, 0.9);
+  color: #6cc644;
+  padding: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.social_icon_linkedin:hover {
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.social_icon_github:hover {
+  background-color: #fff;
+  border-radius: 50%;
+  color: green;
+}
+.typing{
+  font-size: 25px
+}
